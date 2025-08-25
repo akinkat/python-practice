@@ -6,8 +6,6 @@ for fruit in fruits[:]:
     if user == 'y':
         fruits.remove(fruit)
         print(f'{fruit}を差し上げます。')
-    else:
-        continue
 
 
-print(fruits)
+# print(fruits)
